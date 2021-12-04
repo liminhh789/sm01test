@@ -1,0 +1,22 @@
+package com.soft1.chpt01;
+
+public class cmd {
+
+	public static void main(String[] args) {
+   String left;
+   String right;
+   left="黑桃8";
+   right="红桃10";
+   System.out.println("左手牌:"+left+",右手牌:"+right);
+   String temp;
+   //将左手的牌给temp
+   temp=left;
+ //将右手的牌给左手
+   left=right;
+   right=temp;
+   //将temp的牌给左手
+   System.out.println("交换后\n-------------\n左手牌:"+left+
+		   ",右手牌："+right);
+	}
+
+}
