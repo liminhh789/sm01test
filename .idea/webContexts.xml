@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/java/web/WEB-INF/common/head.jsp" value="file://$PROJECT_DIR$/src/main/java/web/WEB-INF/common" />
+        <entry key="file://$PROJECT_DIR$/src/main/java/web/WEB-INF/pages/common/head.jsp" value="file://$PROJECT_DIR$/src/main/java/web/WEB-INF/pages/common" />
+      </map>
+    </option>
+  </component>
+</project>
