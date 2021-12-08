@@ -5,6 +5,7 @@
 </head>
 <body>
     <h1>云端修改</h1>
+    <h1>本地</h1>
 <form action="${pageContext.request.contextPath}/param2/reg" method="get">
     <label>用户名</label>   <input name="username">
      <label>密码</label>    <input name="pwd">

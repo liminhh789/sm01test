@@ -18,7 +18,6 @@ import java.io.*;
 import java.net.URLEncoder;
 import java.util.Map;
 import java.util.UUID;
-
 @Controller
 @RequestMapping(value = "user")
 public class UserController {
@@ -64,7 +63,6 @@ public class UserController {
         System.out.println("---login()---");
         return "hello";
     }
-
 
     @RequestMapping(value = "upload",method = {RequestMethod.POST})
     public String upload(MultipartFile image,HttpServletRequest request) throws IOException {
