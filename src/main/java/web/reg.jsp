@@ -38,7 +38,7 @@
 <from>
   账号:<input type="text" name="username"/>
     <br>
-  密码:<input type="password" name="password"/>
+  密码:<input type="password" name="pwd"/>
     <input type="button" value="提交" id="reg">
 </from>
 <div>
