@@ -3,7 +3,7 @@
 <head>
     <title>reg页面</title>
     <script type="text/javascript" src="statics/js/jquery-1.8.3.min.js"></script>
-    <%--js脚本；自动执行--%>
+    <%--js脚本1；自动执行--%>
 <script type="text/javascript">
     // $(function (){
     //     alert("hello?");
