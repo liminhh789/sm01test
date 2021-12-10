@@ -17,7 +17,7 @@
     //     });
     $(function() {
         $("#reg").click(function() {
-            // alert("---click----");
+            alert("---click----");
             var username = $("#name").val();//获取用户输入值
             var password = $("#pwd").val();
             var regInfo={"username":username,"pwd":password}
