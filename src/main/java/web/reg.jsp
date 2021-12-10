@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" isELIgnored="false" language="java" %>
 <html>
 <head>
-    <title>reg页面</title>
+    <title>reg页面1</title>
     <script type="text/javascript" src="statics/js/jquery-1.8.3.min.js"></script>
     <%--js脚本1；自动执行--%>
 <script type="text/javascript">
