@@ -22,6 +22,7 @@ public User getUser(){
     }
     @RequestMapping(value = "getJsonRegInfot")
     public void getJsonRegInfo(@RequestBody User user){
+        //@RequestBody告诉控制器发来的请求时json格式可以封装为User类型
         System.out.println("接收到注册信息"+user);
     }
 }
