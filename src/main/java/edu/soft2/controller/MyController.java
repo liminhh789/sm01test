@@ -2,6 +2,7 @@ package edu.soft2.controller;
 
 import edu.soft2.controller.pojo.User;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -48,6 +49,7 @@ public class MyController {
         return "hello";//拼接：前缀+hello+后缀
     }
     @RequestMapping(value = "/param1",method = {RequestMethod.GET,RequestMethod.POST})
+    @GetMapping(value = "/param1")
     public String param1(HttpServletRequest request){
         System.out.println("-----param1()-----");
         //接收处理，调用业务，跳转页面
