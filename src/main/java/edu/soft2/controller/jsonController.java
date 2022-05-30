@@ -12,13 +12,13 @@ import java.util.Date;
 @RequestMapping("json")
 public class jsonController {
     @RequestMapping(value = "getUser")
-    @ResponseBody
+    @ResponseBody//将java对象转为json格式
 public User getUser(){
     User user=new User();
     user.setUsername("Peter");
     user.setBirthday(new Date());
         System.out.println("user"+user);
-    return user;
+    return user;//@ResponseBody将user转为JSON格式
     }
     @RequestMapping(value = "getJsonRegInfot")
     public void getJsonRegInfo(@RequestBody User user){
